@@ -1,0 +1,153 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "CWGYbEdacaNYKgsSB5cc9Rltncg",
+  "table_id": "tbleBmkwPPE9x1q3",
+  "rev": 1,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "all_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 2000,
+  "records_count": 8,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/workspace/tbleBmkwPPE9x1q3_20261015_070019_106.ndjson",
+  "record_file_size_bytes": 3924,
+  "manifest_file": "/workspace/tbleBmkwPPE9x1q3_20261015_070019_106.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28NYWBczA00"
+    },
+    "主办/颁发机构": {
+      "field_id": "fldtcW5Oio",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 17
+      },
+      "example": "字节跳动"
+    },
+    "决赛/考试日期": {
+      "field_id": "fldsQz6ezn",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 8
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "初赛日期": {
+      "field_id": "fldEzqL0eX",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 8
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "家长价值": {
+      "field_id": "fld6HoWzMf",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 18
+      },
+      "example": "MIT 官方"
+    },
+    "报名截止": {
+      "field_id": "fldND3GflB",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 8
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "是否对接": {
+      "field_id": "fldd1902v2",
+      "field_type": "checkbox",
+      "physical_type": "boolean",
+      "stats": {
+        "true_count": 8
+      },
+      "example": true
+    },
+    "状态": {
+      "field_id": "fldyVCM4XM",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "⏳ 筹备中"
+      ]
+    },
+    "赛事/考试名称": {
+      "field_id": "fldAheg2a9",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 30
+      },
+      "example": "AI 世青赛"
+    },
+    "赛事官网": {
+      "field_id": "fldeLmYUUH",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 86
+      },
+      "example": "[浦育平台](https://www.openinnolab.org.cn)"
+    },
+    "赛事级别": {
+      "field_id": "fldG6BDrI3",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "企业/公益"
+      ]
+    },
+    "适配我们的档位": {
+      "field_id": "fldytpWrEz",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "🟢 探险家"
+      ]
+    },
+    "面向年级": {
+      "field_id": "fldK8WkidS",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 5
+      },
+      "example": "7-18岁"
+    }
+  }
+}

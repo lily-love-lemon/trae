@@ -1,0 +1,130 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "CWGYbEdacaNYKgsSB5cc9Rltncg",
+  "table_id": "tbl1kVvwlRMWEh70",
+  "rev": 2,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "all_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 2000,
+  "records_count": 11,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/workspace/tbl1kVvwlRMWEh70_20261015_070017_939.ndjson",
+  "record_file_size_bytes": 3890,
+  "manifest_file": "/workspace/tbl1kVvwlRMWEh70_20261015_070017_939.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28NYVA8QEJF"
+    },
+    "关联学生（双向）": {
+      "field_id": "fldh2aKQ7W",
+      "field_type": "link",
+      "physical_type": "array<struct<id string>>",
+      "stats": {
+        "empty_count": 11,
+        "max_length": 0,
+        "avg_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "备注": {
+      "field_id": "fldWf5UqKe",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 10,
+        "max_length": 35
+      },
+      "example": "Day of AI G1 Learning from Patterns"
+    },
+    "核心来源平台": {
+      "field_id": "fldQlNiwRm",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "Day of AI"
+      ]
+    },
+    "档位": {
+      "field_id": "fldLnKEYGd",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "🟢 AI 探险家 6-10岁"
+      ]
+    },
+    "模块名称": {
+      "field_id": "fld6XCe7Sj",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 25
+      },
+      "example": "AI 是什么？"
+    },
+    "状态": {
+      "field_id": "fldaBhaLoy",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "✅ 已设计"
+      ]
+    },
+    "证书/赛事对接": {
+      "field_id": "fldbpB8a60",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 48
+      },
+      "example": "Day of AI 高中阶"
+    },
+    "课时": {
+      "field_id": "fldDYJxIHM",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 0,
+        "min": 2,
+        "max": 16,
+        "avg": 5.363636363636363
+      },
+      "example": 2
+    },
+    "项目产出": {
+      "field_id": "flddxDHMlR",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 22
+      },
+      "example": "AI 信息核查小报"
+    }
+  }
+}
